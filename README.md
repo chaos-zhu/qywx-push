@@ -44,6 +44,7 @@ services:
 6. 完善配置
 <img width="1110" height="838" alt="image" src="https://github.com/user-attachments/assets/ac9c02f5-6040-4422-97cf-80e04ea3d8e6" />
 
-7. 保存好配置Code，就可以调用API服务了
+7. 保存好配置Code，就可以调用API服务了。如果需要发送通知到微信还需要在[企业微信插件页面](https://work.weixin.qq.com/wework_admin/frame#/profile/wxPlugin)使用微信扫码关注
 
-8. 待完善图片发送
+
+<img width="1681" height="1222" alt="image" src="https://github.com/user-attachments/assets/18e98964-b000-4832-be79-e5638e37d0ca" />
