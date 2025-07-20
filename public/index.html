@@ -57,18 +57,18 @@
 
             <form id="callbackForm" class="space-y-4">
                 <div class="form-control">
-                    <label class="label font-medium">CorpID</label>
+                    <label class="label font-medium">企业ID</label>
                     <input type="text" name="corpid" class="input input-bordered w-full" required placeholder="请输入企业微信CorpID">
                 </div>
                 <div class="form-control">
-                    <label class="label font-medium">回调Token</label>
+                    <label class="label font-medium">回调Token(随机获取)</label>
                     <input type="text" name="callback_token" class="input input-bordered w-full" placeholder="请输入回调验证Token" required>
                     <div class="label">
                         <span class="label-text-alt text-base-content/60">用于验证回调请求的Token</span>
                     </div>
                 </div>
                 <div class="form-control">
-                    <label class="label font-medium">EncodingAESKey</label>
+                    <label class="label font-medium">EncodingAESKey(随机获取)</label>
                     <input type="text" name="encoding_aes_key" class="input input-bordered w-full" placeholder="请输入43位EncodingAESKey" required>
                     <div class="label">
                         <span class="label-text-alt text-base-content/60">用于消息加解密的AES密钥</span>
@@ -93,8 +93,8 @@
 
             <form id="configForm" class="space-y-4">
                 <div class="form-control">
-                    <label class="label font-medium">CorpSecret</label>
-                    <input type="password" name="corpsecret" class="input input-bordered w-full" required placeholder="请输入CorpSecret">
+                    <label class="label font-medium">AgentSecret</label>
+                    <input type="password" name="corpsecret" class="input input-bordered w-full" required placeholder="请输入AgentSecret">
                 </div>
                 <div class="form-control">
                     <label class="label font-medium">AgentID</label>
