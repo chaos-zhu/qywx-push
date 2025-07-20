@@ -58,7 +58,7 @@
             <form id="callbackForm" class="space-y-4">
                 <div class="form-control">
                     <label class="label font-medium">企业ID</label>
-                    <input type="text" name="corpid" class="input input-bordered w-full" required placeholder="请输入企业微信CorpID">
+                    <input type="text" name="corpid" class="input input-bordered w-full" required placeholder="请输入企业ID">
                 </div>
                 <div class="form-control">
                     <label class="label font-medium">回调Token(随机获取)</label>
@@ -93,12 +93,12 @@
 
             <form id="configForm" class="space-y-4">
                 <div class="form-control">
-                    <label class="label font-medium">AgentSecret</label>
-                    <input type="password" name="corpsecret" class="input input-bordered w-full" required placeholder="请输入AgentSecret">
-                </div>
-                <div class="form-control">
                     <label class="label font-medium">AgentID</label>
                     <input type="number" name="agentid" class="input input-bordered w-full" required placeholder="请输入AgentID">
+                </div>
+                <div class="form-control">
+                    <label class="label font-medium">AgentSecret</label>
+                    <input type="password" name="corpsecret" class="input input-bordered w-full" required placeholder="请输入AgentSecret">
                 </div>
                 <div>
                     <button type="button" id="validateBtn" class="btn btn-outline w-full flex gap-2 items-center">
